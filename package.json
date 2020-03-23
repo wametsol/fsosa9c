@@ -1,0 +1,38 @@
+{
+  "name": "osa9c",
+  "version": "1.0.0",
+  "description": "Fullstack osa9c",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "dev": "ts-node-dev index.ts",
+    "lint": "eslint --ext .ts .",
+    "start": "node build/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wametsol/fsosa9c.git"
+  },
+  "author": "Waltteri Metsola",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wametsol/fsosa9c/issues"
+  },
+  "homepage": "https://github.com/wametsol/fsosa9c#readme",
+  "devDependencies": {
+    "@types/cors": "^2.8.6",
+    "@types/express": "^4.17.3",
+    "@types/uuid": "^7.0.2",
+    "@typescript-eslint/eslint-plugin": "^2.24.0",
+    "@typescript-eslint/parser": "^2.24.0",
+    "eslint": "^6.8.0",
+    "ts-node-dev": "^1.0.0-pre.44",
+    "typescript": "^3.8.3"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "uuid": "^7.0.2"
+  }
+}
